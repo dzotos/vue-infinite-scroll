@@ -5,8 +5,7 @@ export default {
   dest: 'vue-infinite-scroll.js',
   plugins: [
     babel({
-      exclude: 'node_modules/**',
-      presets: ['es2015-rollup']
+      exclude: 'node_modules/**'
     })
   ],
   format: 'umd',
